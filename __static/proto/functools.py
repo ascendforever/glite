@@ -1,5 +1,5 @@
 
-from gll.__common import __common
+from glite import __common
 
 _T = __common.T
 
