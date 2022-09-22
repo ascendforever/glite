@@ -1,7 +1,7 @@
 
 
 
-from glite.__common.__cimports cimport *
+from glite.__static.__cimports cimport *
 
 
 
