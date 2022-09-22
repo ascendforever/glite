@@ -8,6 +8,7 @@ __all__ = [
 import timeit as timeit
 
 from glite.__common import *
+from glite.__static import *
 
 # noinspection PyShadowingNames
 # noinspection PyUnusedLocal

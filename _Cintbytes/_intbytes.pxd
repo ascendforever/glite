@@ -1,5 +1,5 @@
 
-from gll.__static.__static1.__static2.__static3.__static4.__static5.__cimports cimport *
+from glite.__static.__cimports cimport *
 
 ctypedef fused int_any:
     cython.ushort
@@ -65,23 +65,3 @@ cpdef PyInt upy_from_bytes(bytes x)
 cpdef PyInt ipy_from_bytes(bytes x)
 
 cpdef str byteify(object bytes, cython.uchar decimals=*)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

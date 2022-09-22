@@ -31,7 +31,8 @@ __all__ = [
     'byteify',
 ]
 
-from gll.__common import *
+from glite.__common import *
+from glite.__static import *
 
 def upy_size(x:int) -> int: ... # noqa
 def ipy_size  (x:int) -> int: ... # noqa
@@ -72,7 +73,3 @@ def ipy_from_bytes(x:bytes) -> int: ... # noqa
 def byteify(bytes:int, decimals:int=17) -> str:
     """Quickly convert bytes to the highest practical unit
     [Created ?/?/20] cython // python 5/30/21"""
-
-
-
-
